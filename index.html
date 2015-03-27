@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html lang="es-MX" ng-app="app">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>DASEDA :: Tu respaldo seguro</title>
+	<!-- bower:css -->
+	<link rel="stylesheet" href="lib/materialize/bin/materialize.css" />
+	<link rel="stylesheet" href="lib/font-awesome/css/font-awesome.css" />
+	<!-- endbower -->    
+	<!-- inject:css -->    
+	<link rel="stylesheet" href="/stylesheets/main.css">    
+	<!-- endinject --> 
+</head>
+<body >
+	
+	<nav>
+	    <div class="nav-wrapper indigo darken-4">
+	      <a href="#" class="brand-logo logo">
+	      		<img src="img/daseda.png" width="250" alt="daseda">
+	      </a>
+	      <a href="#" data-activates="mobile-demo" class="button-collapse hide-on-med-and-up"><i class="mdi-navigation-menu"></i></a>
+	      <ul class="right hide-on-small-only">
+	        <li><a class="waves-effect waves-light" href="#"><i class="mdi-action-search"></i></a></li>
+	        <li><a class="waves-effect waves-light" href="#"><i class="fa fa-facebook"></i></a></li>
+	        <li><a class="waves-effect waves-light" href="#"><i class="fa fa-twitter"></i></a></li>
+	        <li><a class="waves-effect waves-light" href="#"><i class="mdi-action-shopping-cart"></i></a></li>
+	      </ul>
+	      <ul class="side-nav" id="mobile-demo">
+	        <li><a href="#">Nosotros</a></li>
+	        <li><a href="#">Servicios</a></li>
+	        <li><a href="#">Productos</a></li>
+	        <li><a href="#">Contacto</a></li>
+	        <li><a href="#">Más Cosas</a></li>
+        	<ul class="collapsible" data-collapsible="accordion">
+			    <li>
+					<div class="collapsible-header">Marcas</div>
+					<div class="collapsible-body">
+						<ul>
+							<li><a href="#">Stylos</a></li>
+							<li><a href="#">Duplimax</a></li>
+							<li><a href="#">Kingston</a></li>
+							<li><a href="#">Sony</a></li>
+							<li><a href="#">HP</a></li>
+							<li><a href="#">Chinos</a></li>
+						</ul>
+					</div>
+			    </li>
+			    <li>
+			      <div class="collapsible-header">Categorias</div>
+			      <div class="collapsible-body">
+			      		<ul>
+							<li><a href="#">Tabletas</a></li>
+							<li><a href="#">Laptops</a></li>
+							<li><a href="#">CD</a></li>
+							<li><a href="#">DVD</a></li>
+							<li><a href="#">Audifonos</a></li>
+							<li><a href="#">Memorias</a></li>
+					    </ul>
+			      </div>
+			    </li>
+        	</ul>
+	      </ul>
+	    </div>
+	</nav>
+	<div class="row white hide-on-small-only nomarginbottom">
+	    <div class="col s12">
+	      <ul class="tabs menu">
+	        <li class="tab col m3"><a class="waves-effect waves-indigo" href="#test1">Nosotros</a></li>
+	        <li class="tab col m3"><a class="waves-effect waves-indigo" href="#test2">Servicios</a></li>
+	        <li class="tab col m3"><a class="waves-effect waves-indigo" href="#test3">Productos</a></li>
+	        <li class="tab col m3"><a class="waves-effect waves-indigo" href="#test4">Contacto</a></li>
+	        <li class="tab col m3"><a class="waves-effect waves-indigo" href="#test4">Más Cosas</a></li>
+	      </ul>
+	    </div>
+	</div>
+	<br>
+	<div class="row">
+		<aside class="col l2 hide-on-med-and-down">
+			<div class="z-depth-1 white">
+				<h2 class="center-align">
+					<span class="lateral">Marcas</span>
+				</h2>
+				<ul class="collection">
+			      <a class="collection-item" href="#">Stylos</a>
+			      <a class="collection-item" href="#">Duplimax</a>
+			      <a class="collection-item" href="#">Kingston</a>
+			      <a class="collection-item" href="#">Sony</a>
+			      <a class="collection-item" href="#">HP</a>
+			      <a class="collection-item" href="#">Chinos</a>
+			    </ul>
+			</div>
+			<div class="z-depth-1 white">
+				<h2 class="center-align">
+					<span class="lateral">Categorias</span>
+				</h2>
+				<ul class="collection">
+			      <a class="collection-item" href="#">Tabletas</a>
+			      <a class="collection-item" href="#">Laptops</a>
+			      <a class="collection-item" href="#">CD</a>
+			      <a class="collection-item" href="#">DVD</a>
+			      <a class="collection-item" href="#">Audifonos</a>
+			      <a class="collection-item" href="#">Memorias</a>
+			    </ul>
+			</div>
+		</aside>
+
+		<section class="col s12 m12 l10">
+	        <div class="z-depth-1 white">
+	        	<div class="slider">
+				    <ul class="slides">
+				      <li>
+				        <img src="img/noche.jpg"> <!-- random image -->
+				        <!-- <div class="caption center-align">
+				          <h3>This is our big Tagline!</h3>
+				          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+				        </div> -->
+				      </li>
+				      <li>
+				        <img src="img/descuento.png"> <!-- random image -->
+				        <!-- <div class="caption left-align">
+				          <h3>Left Aligned Caption</h3>
+				          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+				        </div> -->
+				      </li>
+				      <li>
+				        <img src="img/copperl.jpg"> <!-- random image -->
+				        <!-- <div class="caption right-align">
+				          <h3>Right Aligned Caption</h3>
+				          <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
+				        </div> -->
+				      </li>
+				    </ul>
+				</div>
+	        </div>
+	        <br>
+        	<div class="row">
+        		<div class="col s12 m6 l4">
+        			<div class="card">
+				        <div class="card-image waves-effect waves-block waves-light">
+				          <img class="activator" src="images/office.jpg">
+				        </div>
+				        <div class="card-content">
+				          <span class="card-title activator grey-text text-darken-4">Titulo de producto sofisticado <i class="mdi-navigation-more-vert right"></i></span>
+				          <p>
+				          	<a href="#">Detalles</a>
+				          	<a class="boton tooltipped" data-position="top" data-delay="50" data-tooltip="Agregar a mi carrito">$2500</a>
+				          </p>
+				        </div>
+				        <div class="card-reveal">
+				          <span class="card-title grey-text text-darken-4">Titulo de producto sofisticado <i class="mdi-navigation-close right"></i></span>
+				          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+				        </div>
+				    </div>
+        		</div>
+        		<div class="col s12 m6 l4">
+        			<div class="card">
+				        <div class="card-image waves-effect waves-block waves-light">
+				          <img class="activator" src="images/office.jpg">
+				        </div>
+				        <div class="card-content">
+				          <span class="card-title activator grey-text text-darken-4">Titulo de producto sofisticado <i class="mdi-navigation-more-vert right"></i></span>
+				          <p><a href="#">$1,500</a></p>
+				        </div>
+				        <div class="card-reveal">
+				          <span class="card-title grey-text text-darken-4">Titulo de producto sofisticado <i class="mdi-navigation-close right"></i></span>
+				          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+				        </div>
+				    </div>
+        		</div>
+        		<div class="col s12 m6 l4">
+        			<div class="card">
+				        <div class="card-image waves-effect waves-block waves-light">
+				          <img class="activator" src="images/office.jpg">
+				        </div>
+				        <div class="card-content">
+				          <span class="card-title activator grey-text text-darken-4">Titulo de producto sofisticado <i class="mdi-navigation-more-vert right"></i></span>
+				          <p><a href="#">$1,500</a></p>
+				        </div>
+				        <div class="card-reveal">
+				          <span class="card-title grey-text text-darken-4">Titulo de producto sofisticado <i class="mdi-navigation-close right"></i></span>
+				          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+				        </div>
+				    </div>
+        		</div>
+        	</div>
+        	<br>
+        	<div class="row">
+        		<div class="col s12 m6 l4">
+        			<div class="card">
+				        <div class="card-image waves-effect waves-block waves-light">
+				          <img class="activator" src="images/office.jpg">
+				        </div>
+				        <div class="card-content">
+				          <span class="card-title activator grey-text text-darken-4">Titulo de producto sofisticado <i class="mdi-navigation-more-vert right"></i></span>
+				          <p><a href="#">$1,500</a></p>
+				        </div>
+				        <div class="card-reveal">
+				          <span class="card-title grey-text text-darken-4">Titulo de producto sofisticado <i class="mdi-navigation-close right"></i></span>
+				          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+				        </div>
+				    </div>
+        		</div>
+        		<div class="col s12 m6 l4">
+        			<div class="card">
+				        <div class="card-image waves-effect waves-block waves-light">
+				          <img class="activator" src="images/office.jpg">
+				        </div>
+				        <div class="card-content">
+				          <span class="card-title activator grey-text text-darken-4">Titulo de producto sofisticado <i class="mdi-navigation-more-vert right"></i></span>
+				          <p><a href="#">$1,500</a></p>
+				        </div>
+				        <div class="card-reveal">
+				          <span class="card-title grey-text text-darken-4">Titulo de producto sofisticado <i class="mdi-navigation-close right"></i></span>
+				          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+				        </div>
+				    </div>
+        		</div>
+        		<div class="col s12 m6 l4">
+        			<div class="card">
+				        <div class="card-image waves-effect waves-block waves-light">
+				          <img class="activator" src="images/office.jpg">
+				        </div>
+				        <div class="card-content">
+				          <span class="card-title activator grey-text text-darken-4">Titulo de producto sofisticado <i class="mdi-navigation-more-vert right"></i></span>
+				          <p><a href="#">$1,500</a></p>
+				        </div>
+				        <div class="card-reveal">
+				          <span class="card-title grey-text text-darken-4">Titulo de producto sofisticado <i class="mdi-navigation-close right"></i></span>
+				          <p>Here is some more information about this product that is only revealed once clicked on.</p>
+				        </div>
+				    </div>
+        		</div>
+        	</div>
+
+      	</section>
+
+	</div>
+
+	<footer class="page-footer indigo darken-4">
+		<div class="container">
+			<div class="row">
+			  <div class="col s6">
+			    <h5 class="white-text">Más Información</h5>
+			    <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+			  </div>
+			  <div class="col s6">
+			    <h5 class="white-text">Tambien te puede interesar</h5>
+			    <ul>
+			      <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+			      <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+			      <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+			      <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+			    </ul>
+			  </div>
+			</div>
+		</div>
+		<div class="footer-copyright">
+			<div class="container center-align">
+				© 2015 DASEDA Derechos Reservados
+				<a class="grey-text text-lighten-4 left" href="#!">Politica de privacidad</a>
+				<a class="grey-text text-lighten-4 right" href="#!">Terminos y condiciones</a>
+			</div>
+		</div>
+    </footer>
+	
+	<!-- bower:js -->
+	<script src="lib/jquery/dist/jquery.js"></script>
+	<script src="lib/materialize/bin/materialize.js"></script>
+	<!-- endbower -->    
+	<!-- inject:js -->       
+	<script src="/scripts/app.js"></script>       
+	<!-- endinject --> 
+</body>
+</html>
+</html>
