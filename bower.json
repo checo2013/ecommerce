@@ -1,0 +1,13 @@
+{
+  "name": "dashboard-app",
+  "version": "0.0.1",
+  "authors": [
+    "Sergio Alcala <checo_2k2@hotmail.com>"
+  ],
+  "description": "librerias necesarias para la app",
+  "license": "MIT",
+  "dependencies": {
+    "materialize": "~0.95.3",
+    "font-awesome": "~4.3.0"
+  }
+}
